@@ -7,9 +7,10 @@
 - [Tools](#tools)  
 - [Approach](#approach)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
 - [Results and Recommendations](#results-and-recommendations)
-
+- [Report Page](#report-page)
+- [Data Analysis](#data-analysis)
+  
  ### Project Overview
 Tibi Foods (fictional business) is a large quick service restaurant chain store in Nigeria and is available on Chowdeck, where online customers can order a range of mouth-watering meals.
 Based on available data, Tibi Foods stakeholders wants a monthly business review for Tibi Foods for Q3 and Q4 2023. 
@@ -42,6 +43,9 @@ The dataset, sourced from Tibi Foods’ data on Chowdeck. Chowdeck is an online 
 - There was 28.85% growth in revenue from Q3 to Q4. Growth would have been higher if revenue was spread across the stores, only two of Tibi stores the 28.85% revenue growth.
 - Revenue dropped lowest in October and peaked in December.
 - There is a positive correlation between the delivery time and order rejection. Longer delivery time led to increased order rejection. However, it was observed that the wait time (time it takes between when the courier arrives and when the courier picks up an item) and the pickup time (time it takes between when the order is marked ready for pick-up and when the courier picks up). This implies that there is a necessity for increased efficiency in order acceptance and making order ready; thus, reducing wait time and pickup time. 
+
+ ### Report page
+![tibi](https://github.com/user-attachments/assets/5202b0d6-993a-414a-8db1-95b47d6e6d49)
 
 ### Data Analysis
 ``` sql
@@ -178,8 +182,7 @@ FROM tibi
 WHERE store_name ='Tibi Foods - Ikeja' AND qaurter ='Q4'
 ```
 
-- Report page
-![tibi](https://github.com/user-attachments/assets/5202b0d6-993a-414a-8db1-95b47d6e6d49)
+
 
 
 
